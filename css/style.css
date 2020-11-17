@@ -20,6 +20,7 @@ section{
 }
 .box{
     width:92%;
+    max-width:400px;
     height:321px;
     /* height:75.4926vh; */
     border-radius:52px;
@@ -30,6 +31,7 @@ section{
 .check-your-con{
     /* display:none; */
     width:64vw;
+    max-width:300px;
     margin:0 auto;
 }
 .logo-con{
@@ -40,6 +42,7 @@ section{
 .name-input{
     font-family: 'S-CoreDream-4Regular';
     width:62.4vw;height:61px;border-radius:25px;
+    max-width:300px;
     border:1px solid #DEDEDE;font-size:1rem;
     text-align:center;
     position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);

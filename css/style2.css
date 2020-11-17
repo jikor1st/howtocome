@@ -21,6 +21,7 @@ section{
     font-size:1.2rem;text-align: center;color:white;
 }
 .box{
+    max-width:400px;
     width:92%;
     height:auto;
     /* height:75.4926vh; */
@@ -36,7 +37,8 @@ section{
     margin-bottom:4.5vh;
 }
 .box-con hr{
-    width:63.3493vw;border-top:1px solid #EBEBEB;
+    width:63.3493vw;
+    max-width:300px;border-top:1px solid #EBEBEB;
     margin:0 auto;
 }
 .howtocome{
