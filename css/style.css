@@ -4,7 +4,7 @@ html,body{
     width:100%;height:100vh;
 }
 button, button:hover, button:visited, button:active, button:focus{
-    outline: none;
+    outline: none;cursor:pointer;
 }
 input, input:hover, input:visited, input:active, input:focus{
     outline: none;
@@ -137,3 +137,4 @@ hr{
     color:#303030;
     line-height:1.6rem;
 }
+.contact{color:white;position:fixed;bottom:30px;left:50%;transform:translateX(-50%);font-family: 'S-CoreDream-4Regular';font-size:0.8rem;}

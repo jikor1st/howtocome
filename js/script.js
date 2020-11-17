@@ -54,5 +54,10 @@ function changeToCheck(){
     howtocomeBtn.classList.add('visible-area-t');
     box.style.transition = "0.5s ease";
     box.style.height = "75.4926vh";
+    localStorage.nameS = nameInput.value;
 }
 checkYourBtn.addEventListener('click', onCheckYourBtn);
+
+howtocomeBtn.addEventListener('click', function(){
+    window.location.href = "./howtocome.html";
+})

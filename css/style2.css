@@ -4,14 +4,16 @@ html,body{
     width:100%;height:100vh;
 }
 button, button:hover, button:visited, button:active, button:focus{
-    outline: none;
+    outline: none;cursor:pointer;
 }
 input, input:hover, input:visited, input:active, input:focus{
     outline: none;
 }
 section{
-    width:100%;height:100vh;
+    width:100%;height:100%;
     background-color:#313737;
+    padding-top:110px;
+    padding-bottom:70px;
 }
 .howtocome-page-title{
     font-family: 'GmarketSansMedium';
@@ -24,6 +26,75 @@ section{
     /* height:75.4926vh; */
     border-radius:52px;
     background-color:white;
-    position:relative;
-    top:50%;left:50%;transform:translate(-50%,-50%);
+    margin:0 auto;
+}
+.howtocome-title{
+    font-size:1rem;
+    font-family: 'GmarketSansMedium';
+    text-align:center;
+    margin-top:10px;
+    margin-bottom:4.5vh;
+}
+.box-con hr{
+    width:63.3493vw;border-top:1px solid #EBEBEB;
+    margin:0 auto;
+}
+.howtocome{
+    position: relative;
+}
+
+.taxi-icon-con{margin:34px 0;display:flex;align-items:center;justify-content:center;font-size:1rem;font-family: 'GmarketSansMedium';}
+.taxi-icon-con > img{margin-right:7px;}
+.bus-icon-con{margin:34px 0;display:flex;align-items:center;justify-content:center;font-size:1rem;font-family: 'GmarketSansMedium';}
+.bus-icon-con > img{margin-right:7px;}
+.box-con > p{
+    text-align:center;
+}
+.from-to{
+    font-family: 'GmarketSansMedium';
+    font-size:1rem;
+}
+.price{
+    font-family: 'GmarketSansMedium';
+    margin:15px 0 4.5vh 0;
+    font-size:0.9rem;
+    color:#9A9A9F;
+}
+
+.bus-num{
+    font-family: 'GmarketSansBold';
+    font-size:1.1rem;color:#49CFC6;
+}
+.bus-get{
+    font-family: 'GmarketSansMedium';
+    font-size:1rem;line-height:1.4rem;
+    margin-top:15px;
+}
+.bus-time{
+    font-family: 'GmarketSansMedium';
+    margin:15px 0 4.5vh 0;
+    font-size:0.9rem;
+    color:#9A9A9F;
+    padding-bottom:4.5vh;
+}
+
+.howtocome-img{
+    width:100%;display:flex;justify-content: center;
+}
+.howtocome-img > img{
+    width: 100%;
+    max-width: 375px;
+    vertical-align: top;
+}
+
+.back-btn{
+    width: 44px;height:38px;
+    background-color:unset;border:none;
+    position:fixed;left:32px;top:38px;
+    display:block;
+}
+.back-btn > img{
+    display:inline-block;
+    position:absolute;left:50%;top:50%;
+    transform:translate(-50%,-50%);
 }
