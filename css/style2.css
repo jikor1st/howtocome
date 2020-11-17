@@ -1,0 +1,29 @@
+*{font-size:18px;color:#161617;}
+
+html,body{
+    width:100%;height:100vh;
+}
+button, button:hover, button:visited, button:active, button:focus{
+    outline: none;
+}
+input, input:hover, input:visited, input:active, input:focus{
+    outline: none;
+}
+section{
+    width:100%;height:100vh;
+    background-color:#313737;
+}
+.howtocome-page-title{
+    font-family: 'GmarketSansMedium';
+    position:relative;top:-60px;
+    font-size:1.2rem;text-align: center;color:white;
+}
+.box{
+    width:92%;
+    height:auto;
+    /* height:75.4926vh; */
+    border-radius:52px;
+    background-color:white;
+    position:relative;
+    top:50%;left:50%;transform:translate(-50%,-50%);
+}
